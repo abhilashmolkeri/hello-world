@@ -34,28 +34,21 @@ gutter of every photo before transcribing.
 |---|---|---|---|
 | `ansys_helper_functions/create_geo_groups_v1.py` | 92 | `create_geo_groups_1..2` | `D:\work\scripts\ansys_helper_functions` |
 | `ansys_helper_functions/create_named_selections_v4.py` | 205 | `create_ns_1..5` | `D:\work\scripts\ansys_helper_functions` |
-| `automation/generate_cases.py` | 194 | `generate_cases_1..4` | `...\Skews_PMG_600um_GCW_Thk_500um\scripts\automation` |
+| `automation/generate_cases.py` | 194 | `generate_cases_1..4` | `...\scripts\automation` |
+| `automation/clean_cases.py` | 149 | `clean_cases_0..2` | `...\scripts\automation` |
+| `automation/launcher.py` | 256 | `launcher_1..6` | `...\scripts\automation` |
+| `automation/README.md` | 191 | `readme`, `readme_2..4` | `...\scripts\automation` |
+| `automation/setup_cases.py` | 535 | `setup_cases_1..11` | `...\scripts\automation` |
+| `tools/split_mapdl_workbench.py` | 348 | `split_workbench_input_1..7` | `...\scripts\tools` |
 
-### Not yet transcribed
+The `clean_cases` gap is closed: the user supplied the missing photo of lines
+1-50 (`clean_cases_0`), so that file is now complete.
 
-| File | Lines | Photos | Coverage |
+### Not transcribed
+
+| File | Lines | Photos | Reason |
 |---|---|---|---|
-| `launcher.py` | 256 | `launcher_1..6` | continuous 1-256 |
-| `README.md` | 191 | `readme`, `readme_2..4` | continuous 1-191 |
-| `split_workbench_input.py` | 348 | `split_workbench_input_1..7` | continuous 1-348 |
-| `combine.py` | 455 | `combine_1..7`, `combine_9..11` | continuous 1-455 |
-| `setup_cases.py` | 535 | `setup_cases_1..11` | continuous 1-535 |
-| `clean_cases.py` | 149 | `clean_cases_1..2` | **lines 51-149 only** |
-
-Notes on the remaining set:
-
-* `combine_8` is missing from the Drive folder, but it leaves no gap — photo 7
-  ends at line 336 and photo 9 starts at line 329, so the two overlap.
-* `clean_cases` is the only real gap: both photos start partway down the file
-  (photo 1 begins at line 51). **Lines 1-50 were never photographed** — that
-  covers the imports, module constants, and the head of `sim_dirs()`, which a
-  sticky header in the photo shows is defined at line 32. A photo of the top of
-  that file is needed before it can be reconstructed.
+| `combine.py` | 455 | `combine_1..7`, `combine_9..11` | Skipped at the user's request. Photo coverage is complete (photo 7 ends at line 336, photo 9 starts at 329, so the absent `combine_8` leaves no gap) - it can be transcribed later without new photos. |
 
 ## Method
 
